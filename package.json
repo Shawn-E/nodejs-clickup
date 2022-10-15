@@ -1,5 +1,5 @@
 {
-    "name": "node-clickup",
+    "name": "nodejs-clickup",
     "version": "1.0.0",
     "description": "A api wrapper for ClickUp's V2 Api",
     "main": "main.js",
@@ -7,10 +7,18 @@
       "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [],
-    "author": "",
+    "author": "Shawn E.#5229",
     "license": "ISC",
     "dependencies": {
       "axios": "^1.1.2"
-    }
+    },
+    "bugs": {
+        "url": "https://github.com/Shawn-E/nodejs-clickup/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Shawn-E/nodejs-clickup.git"
+      },
+    "homepage": "https://github.com/Shawn-E/nodejs-clickup#readme"
   }
   

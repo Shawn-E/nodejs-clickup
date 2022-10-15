@@ -1,4 +1,4 @@
-# Node ClickUp
+# Nodejs ClickUp
 Node ClickUp is a Node.js Wrapper for ClickUp API
 
 ---
