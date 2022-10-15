@@ -1,0 +1,16 @@
+{
+    "name": "node-clickup",
+    "version": "1.0.0",
+    "description": "A api wrapper for ClickUp's V2 Api",
+    "main": "main.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "axios": "^1.1.2"
+    }
+  }
+  
