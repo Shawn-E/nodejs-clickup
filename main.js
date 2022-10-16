@@ -2,11 +2,9 @@ const { create } = require('axios');
 
 class ClickUp {
   constructor(token, {
-    baseURL = 'https://api.clickup.com/api/v2'
+    baseURL = 'https://api.clickup.com/api/v2' // Base URL For ClickUp API
   } = {}) {
-    this.client = create({
-      baseURL,
-      headers: {
+    this.client = create({ baseURL, headers: {
         'Content-Type': 'application/json',
         'Authorization': token
       }
@@ -58,8 +56,5 @@ class ClickUp {
     }
 
 }
-
-
-
 
 module.exports = ClickUp;
