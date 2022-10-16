@@ -8,6 +8,8 @@ Node ClickUp is a Node.js Wrapper for ClickUp API
 - [deleteTask](#deleteTask)
 - [commentOnTask](#commentOnTask)
 - [updateTask](#updateTask)
+- [getTask](#getTask)
+- [getTasks](#getTasks)
 
 ---
 
@@ -64,6 +66,25 @@ Update a task.
 ```
 For more info on what you can pass into the second param, head to this site => [ClickUp API Refrence - Update Task](https://clickup.com/api/clickupreference/operation/UpdateTask/)
 
+# getTask
+Update a task.
+```js
+    let data = await client.getTask('<TASK_ID_HERE>', <include_subtasks?>);
+
+    console.log(data)
+```
+For more info on what you can pass into the second param, head to this site => [ClickUp API Refrence - Get Task](https://clickup.com/api/clickupreference/operation/GetTask/)
+
+# getTasks
+Update a task.
+```js
+    let data = await client.updateTask('<LIST_ID_HERE>', {
+        <INSERT_FILTERS_HERE>
+    });
+
+    console.log(data)
+```
+For more info on what you can pass into the second param, head to this site => [ClickUp API Refrence - Get Tasks](https://clickup.com/api/clickupreference/operation/GetTasks/)
 ---
 
 # Knowledge Base
