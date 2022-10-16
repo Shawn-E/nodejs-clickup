@@ -67,7 +67,7 @@ Update a task.
 For more info on what you can pass into the second param, head to this site => [ClickUp API Refrence - Update Task](https://clickup.com/api/clickupreference/operation/UpdateTask/)
 
 # getTask
-Update a task.
+Get a task by task id.
 ```js
     let data = await client.getTask('<TASK_ID_HERE>', <include_subtasks?>);
 
@@ -76,7 +76,7 @@ Update a task.
 For more info on what you can pass into the second param, head to this site => [ClickUp API Refrence - Get Task](https://clickup.com/api/clickupreference/operation/GetTask/)
 
 # getTasks
-Update a task.
+get tasks from list id.
 ```js
     let data = await client.updateTask('<LIST_ID_HERE>', {
         <INSERT_FILTERS_HERE>
@@ -85,6 +85,7 @@ Update a task.
     console.log(data)
 ```
 For more info on what you can pass into the second param, head to this site => [ClickUp API Refrence - Get Tasks](https://clickup.com/api/clickupreference/operation/GetTasks/)
+
 ---
 
 # Knowledge Base
